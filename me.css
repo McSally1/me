@@ -1,158 +1,182 @@
-body,html{
-    /* background-image: url(./images/pexels-bich-tran-669996.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    
+body,
+html {
+  /* background-image: url(./images/pexels-bich-tran-669996.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-.nav-bar{
-    /* background-color: blueviolet; */
-width: 100%;
+.nav-bar {
+  /* background-color: blueviolet; */
+  width: 100%;
   float: right;
   padding: 10px;
   text-align: right;
   position: fixed; /* Make it stick, even on scroll
-  /* overflow: auto; Enable scrolling if the sidenav has too much content */ 
+  /* overflow: auto; Enable scrolling if the sidenav has too much content */
 }
-.nav{
-    /* padding: 20px; */
-    margin: 15px;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #16045b;
-   
+.nav {
+  /* padding: 20px; */
+  margin: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #16045b;
 }
 nav:hover {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
-header{
-    background-image: url(./images/pexels-pixabay-268883.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+header {
+  background-image: url(./images/pexels-pixabay-268883.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
 }
-img{
-    max-width: 50%;
+img {
+  max-width: 50%;
 }
-img:hover{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    transition: 5s;
-}
-h1{
-    color: #16045b;
-
-}
-.topic{
-    font-style: italic;
-    padding: 50px 20px;
-    text-align: center;
-    font-size: 50px;
-    margin: 0;
-
-}
-.about{
-    margin: 0;
-    padding: 10px;
-}
-.aboutMe{
-    display: flex;
-    background-image: url(./images/pexels-miguel-á-padriñán-1111318.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-
-}
-.talk{
-    /* background-color: aliceblue;
-    border-radius: 20px; */
-    color: #fff;
-    width: 40%;
-    font-size: 18px;
-    padding: 10px;
-    text-align: justify;
-    box-sizing: border-box;
-    
-
-}
-.project{
-    background-image: url(./images/pexels-lukas-628281.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-}
-.talks{
-color: black;
-}
-
-.pro-img{
-    max-width: 30%;
-    border-radius: 20px;
-}
-.pro-img:hover{
-    -webkit-transform: scaleX(-1);
+img:hover {
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   transition: 5s;
 }
-.work{
-    color: #242F41;
-    width: 30%;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 20px;
-    margin: 20px;
-    text-align: justify;
-    box-sizing: border-box;
+h1 {
+  color: #16045b;
 }
-.icon{
-    max-width: 40px;
-  
+.topic {
+  font-style: italic;
+  padding: 50px 20px;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
 }
-.contact{
-    background-image: url(./images/pexels-bich-tran-669996.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: end;
-    
+.about {
+  margin: 0;
+  padding: 10px;
 }
-.con{
-    color: #fff;
-    width: 130%;
-    font-size: 18px;
-    padding-left: 30px;
-    text-align: justify;
-    box-sizing: border-box;
+.aboutMe {
+  display: flex;
+  background-image: url(./images/pexels-miguel-á-padriñán-1111318.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 }
-li{
-    list-style: none;
-    padding: 10px;
+.talk {
+  /* background-color: aliceblue;
+    border-radius: 20px; */
+  color: #fff;
+  width: 40%;
+  font-size: 18px;
+  padding: 10px;
+  text-align: justify;
+  box-sizing: border-box;
 }
-a{
-    padding: 5px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-    
-    border-radius: 5px;
-    
+.project {
+  background-image: url(./images/pexels-lukas-628281.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-a:hover{
-    color: orange;
-    padding: 7px;
-    transition: 0.2s;
+.talks {
+  color: black;
 }
 
+.pro-img {
+  max-width: 30%;
+  border-radius: 20px;
+}
+.pro-img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transition: 5s;
+}
+.work {
+  color: #242f41;
+  width: 30%;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+.icon {
+  max-width: 40px;
+}
+.contact {
+  background-image: url(./images/pexels-bich-tran-669996.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+}
+.con {
+  color: #fff;
+  width: 130%;
+  font-size: 18px;
+  padding-left: 30px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+
+  border-radius: 5px;
+}
+a:hover {
+  color: orange;
+  padding: 7px;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutMe {
+    display: block;
+  }
+  .talk {
+    width: 100%;
+    padding: 20px;
+  }
+  img {
+    max-width: 90%;
+  }
+  .nav {
+    margin: 5px;
+  }
+  .nav-bar {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-top: 15px;
+  }
+  .pro-img{
+    max-width: 200px;
+    position: relative;
+    left: -40px;
+  }
+  .work{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+     text-align: left;
+  }
+}
